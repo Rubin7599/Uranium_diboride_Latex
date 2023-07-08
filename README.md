@@ -10,4 +10,4 @@ is miss out the opportunity to improve our ecosystem and make it more environmen
 this research, I would put the focus on the potentially fuel, Uranium diboride (UB2), an interesting fuel
 that nowadays are research to be an ATF candidate fuel. Its physical properties also make it suitable
 for use in GEN-IV reactors, which require high standards to reaction. All of these factors make UB2
-show on my eyes, and this research aims to explore its potential.
+show on my eyes, and this research aims to explore its potential
