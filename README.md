@@ -9,6 +9,7 @@ This common template enables future reports to have a example template to use.
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
+This Report original content's abstract
 ``````
 It is universally acknowledged that power generation is most fundamental facility required
 by every industry, as almost all things require electricity to work. Among all the methods
