@@ -2,12 +2,12 @@
 The potential candidates of ATF, Uranium Diboride in GitHub.
 This common template enables future reports to have a example template to use.
 
-1.In Windows, you need TeX distribution to comtrol your Tex package, install one like Miktek, TinyTeX etc.
+1. In Windows, you need TeX distribution to comtrol your Tex package, install one like Miktek, TinyTeX etc.
 
-2.Open Powershell, then enter the command like the follow <br>
+2. Open Powershell, then enter the command like the follow <br>
 ```git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git```
 
-3.Using the text editor like TeXworks, VScode...... then start your report time!
+3. Using the text editor like TeXworks, VScode...... then start your report time!
 
 ``````
 It is universally acknowledged that power generation is most fundamental facility required
