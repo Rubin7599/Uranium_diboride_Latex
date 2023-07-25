@@ -1,6 +1,7 @@
-\documentclass[final,11pt,times,twocolumn]{elsarticle}
+\documentclass[final,10pt,times,twocolumn]{elsarticle}
 \usepackage[top = 4cm, bottom = 3cm, right = 2cm, left = 2cm, a4paper]{geometry}
 \usepackage{amssymb}
+\usepackage[backref]{hyperref}
 
 \begin{document}
 \begin{frontmatter}
@@ -25,7 +26,7 @@ increasing the reactors power up-rates, longer cy-
 cle lengths, improved performance due to lowered
 thermal gradients across the fuel pellet reduced
 stored energy in the core, and allow for increased
-coping time during accident scenarios.
+coping time during accident scenarios.\cite{knuth:1984}
 
 \begin{figure}[ht]
     \centering
@@ -61,6 +62,8 @@ dependent release of fission products, reduce the
 energy stored inside the fuel (This properties also
 is the most important that the UB2 need.)
 
+\bibliographystyle{IEEEtran}
+\bibliography{sample}
+
 \end{document}
 \endinput
-
