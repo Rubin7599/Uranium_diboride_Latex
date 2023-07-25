@@ -5,7 +5,7 @@ This common template enables future reports to have a example template to use.
 1. In Windows, you need to have a TeX distribution to control your Tex package, install that like Miktek, TinyTeX etc.
 
 2. Create a folder in anywhere you want, then right-click to open Powershell in the folder, then enter the command in the follow <br>
-```git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git```
+``````git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git``````
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
