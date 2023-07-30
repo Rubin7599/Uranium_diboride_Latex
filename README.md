@@ -9,7 +9,7 @@ This common template enables future reports to have a example template to use.
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
-Attention, I noticed that a little kind of people can not to build up a fully Tex distribution program, like using CentOS, MacOS, Ubuntu etc. So the Docker file would be added into this template, to decrease the hassle of set up the environment variable. (Althought you can using docker to write your own report, but I recommends that you should install the Tex, using Docker is just a delay)
+Attention, I noticed that a little kind of people can not to build up a fully Tex distribution program, like using CentOS, MacOS, Ubuntu etc. So the Docker file would be added into this template, to decrease the hassle of set up the environment variable. (Althought you can using docker to write your own report, but I recommends that you should install the Tex, using Docker is stall for time)
 
 This Report original content's abstract
 ``````
