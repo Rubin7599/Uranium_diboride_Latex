@@ -1,6 +1,8 @@
 # Uranium_diboride_Latex
 The potential candidates of ATF, Uranium Diboride in GitHub.
-This common template enables future reports to have a example template to use.
+This common template enables future class reports to have a example template to use.
+
+Windiows( Windows 10 and after ) be liked:
 
 1. In Windows, you need to have a TeX distribution to control your Tex package, install that like Miktek, TinyTeX etc.
 
@@ -9,7 +11,24 @@ This common template enables future reports to have a example template to use.
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
-Attention, I noticed that a little kind of people can not to build up a fully Tex distribution program, like using CentOS, MacOS, Ubuntu etc. So the Docker file would be added into this template, to decrease the hassle of set up the environment variable. (Althought you can using docker to write your own report, but I recommends that you should install the Tex, using Docker is stall for time)
+MacOS( MacOS Big Sur and after ) be liked
+
+1. Install git via Xcode, Homebrew etc. The lastest MacOS version have some problem in origin terminal install ( the install may be failed ), if you find out you have problem like ```Can’t install the software because it is not currently available from the Software Update server```, just go ahead to install the lastest Command Line Tools for Xcode.
+
+2. Still, you need a Tex distribution to control your LaTex, MacOS suggest and only can use "MacTex", its have ultra fancy generated speed and very easy to use. 
+
+The link:
+git: 
+https://git-scm.com/download/mac
+
+vscode:
+https://code.visualstudio.com
+
+Appple developer:
+https://developer.apple.com/xcode/
+
+LaTex distribution:
+https://www.latex-project.org/get/
 
 This Report original content's abstract
 ``````
@@ -20,9 +39,9 @@ nuclear power brings about feelings of fear and unknown horror, especially after
 at Fukushima and Chernobyl. Such concerns are not unreasonable, as people’s fear of nuclear
 power is a good measure to prevent accidents from happening. However, Taiwan people are
 too afraid of using this technology, turns out the result is miss out the opportunity to improve
-our ecosystem and make it more environmentally friendly. In this research, I would put the
-focus on the potentially fuel, Uranium diboride (UB2), an interesting fuel that nowadays are
+our ecosystem and make it more environmentally friendly. In this research, I will focus on the
+potentially fuel, Uranium diboride (UB2), an interesting fuel that nowadays are
 research to be an ATF candidate fuel. Its physical properties also make it suitable for use in
-GEN-IV reactors, which require high standards to reaction. All of these factors make UB2
-show on my eyes, and this research aims to explore its potential
+GEN-IV reactors, which require high standards to reaction. All of these factors make me intersted on UB2,
+and this research is aim to explore its potential
 ``````
