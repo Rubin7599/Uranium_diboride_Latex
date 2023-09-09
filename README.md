@@ -7,7 +7,7 @@ Windiows( Windows 10 and after ) be liked:
 1. In Windows, you need to have a TeX distribution to control your Tex package, install that like Miktek, TinyTeX etc.
 
 2. Create a folder in anywhere you want, then right-click to open Powershell in the folder, then enter the command in the follow <br>
-``````git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git``````
+```git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git```
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
@@ -17,7 +17,19 @@ MacOS( MacOS Big Sur and after ) be liked
 
 2. Still, you need a Tex distribution to control your LaTex, MacOS suggest and only can use "MacTex", its have ultra fancy generated speed and very easy to use. 
 
-The link:
+3. Going to the Root directory (go to Finder and press Shift+Command+G then type "/") find a direction you want and use Terminal, type this commnad.
+   ```cd "your prefer direction"```
+   then clone from github
+   ```git clone https://github.com/Rubia7599/Uranium_diboride_Latex.git```
+
+5. In MacOS, i swear using VScode to edit your content is the best decision, after all, enjoy your report time!
+
+Unix and Linux
+
+1. It's not a suggest system that you use for LaTex programming, but if you need to use Linux
+
+The link 
+
 git: 
 https://git-scm.com/download/mac
 
