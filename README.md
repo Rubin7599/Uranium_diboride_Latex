@@ -2,7 +2,7 @@
 The potential candidates of ATF, Uranium Diboride in GitHub.
 This common template enables future class reports to have a example template to use.
 
-Windiows( Windows 10 and after ) be liked:
+Windiows( Windows 10 and later ) be liked:
 
 1. In Windows, you need to have a TeX distribution to control your Tex package, install that like Miktek, TinyTeX etc.
 
@@ -11,7 +11,7 @@ Windiows( Windows 10 and after ) be liked:
 
 3. Using the text editor like TeXworks, VScode...... then start your report time!
 
-MacOS( MacOS Big Sur and after ) be liked
+MacOS( MacOS Big Sur and later ) be liked
 
 1. Install git via Xcode, Homebrew etc. The lastest MacOS version have some problem in origin terminal install ( the install may be failed ), if you find out you have problem like ```Can’t install the software because it is not currently available from the Software Update server```, just go ahead to install the lastest Command Line Tools for Xcode.
 
