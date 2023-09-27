@@ -3,6 +3,7 @@
 \usepackage{amssymb}
 \usepackage[backref]{hyperref}
 \usepackage{booktabs}
+\usepackage[version=4]{mhchem}
 
 \hypersetup{
     colorlinks=true,
@@ -19,7 +20,7 @@
 \begin{frontmatter}
 \title{Uranium diboride, the potential candidates of ATF, feature and application \\ \LaTeX}
 \begin{abstract}
-It is universally acknowledged that power generation is most fundamental facility required by every industry, as almost all things require electricity to work. Among all the methods of electricity generation, nuclear power always faces considerable scrutiny. Undoubtedly, nuclear power brings about feelings of fear and unknown horror, especially after the accidents at Fukushima and Chernobyl. Such concerns are not unreasonable, as people's fear of nuclear power is a good measure to prevent accidents from happening. However, Taiwan people are too afraid of using this technology, turns out the result is miss out the opportunity to improve our ecosystem and make it more environmentally friendly. In this research, I would put the focus on the potentially fuel, Uranium diboride (UB$_{2}$), an interesting fuel that nowadays are research to be an ATF candidate fuel. Its physical properties also make it suitable for use in GEN-IV reactors, which require high standards to reaction. All of these factors make UB$_{2}$ show on my eyes, and this research aims to explore its potential.
+It is universally acknowledged that power generation is most fundamental facility required by every industry, as almost all things require electricity to work. Among all the methods of electricity generation, nuclear power always faces considerable scrutiny. Undoubtedly, nuclear power brings about feelings of fear and unknown horror, especially after the accidents at Fukushima and Chernobyl. Such concerns are not unreasonable, as people's fear of nuclear power is a good measure to prevent accidents from happening. However, Taiwan people are too afraid of using this technology, turns out the result is miss out the opportunity to improve our ecosystem and make it more environmentally friendly. In this research, I would put the focus on the potentially fuel, Uranium diboride \ce{UB2}, an interesting fuel that nowadays are research to be an ATF candidate fuel. Its physical properties also make it suitable for use in GEN-IV reactors, which require high standards to reaction. All of these factors make \ce{UB2} show on my eyes, and this research aims to explore its potential.
 \end{abstract}
 
 \begin{keyword}
@@ -29,7 +30,7 @@ ATF, Uranium diboride, GEN-IV reactors
 \end{frontmatter}
 
 \section{Introduction}
-Uranium diboride is potentially material which on closely debating to be the next generation reactors fuel, expecialy known as ATFs( Advanced Technology Fuels or Accident Tolerance Fuels ). UB2 have unique talent that play a important role in. And ATFs is aim to increase the reactors power up-rates, longer cycle lengths, improved performance,and reduced stored energy in the core etc. And allow have more time to coping during accident scenarios.\cite{watkins2022challenges}
+Uranium diboride is potentially material which on closely debating to be the next generation reactors fuel, expecialy known as ATFs( Advanced Technology Fuels or Accident Tolerance Fuels ). \ce{UB2} have unique talent that play a important role in. And ATFs is aim to increase the reactors power up-rates, longer cycle lengths, improved performance,and reduced stored energy in the core etc. And allow have more time to coping during accident scenarios.\cite{watkins2022challenges}
 
 \begin{figure}[ht]
     \centering
@@ -40,29 +41,43 @@ Uranium diboride is potentially material which on closely debating to be the nex
 \section{History}
 The accident of Fukushima is the most impactable nuclear accident in 2011th, after Fukishima daiichi power plant accident, many country and organization going to figure out why the accident happened and find out solutions, althought theres a big part of research is about the Zircaloy Cladding technology, but it also gave rise to the development of a new field, ATF.
 
-ATF has a lot of candidates, like $U_{2}Si{3}$, $UC$, $UN$, $UB_{2}$ and some kind of material is on debating. Such that, the next-generation reactors(GEN-IV Reactor) has benefited on these development, with ATFs, the reactor can function more safety and efficiency.
+ATF has a lot of candidates, like \ce{U2Si3}, \ce{UC}, \ce{UN}, \ce{UB2} and some kind of material is on debating. Such that, the next-generation reactors(GEN-IV Reactor) has benefited on these development, with ATFs, the reactor can function more safety and efficiency.
 
-$UB_{2}$ has great talent to be the LWR(Light Water Reactors), PBR(Pebble Bed Reactors) and some kind of FBR reactors fertile fuel material.
+\ce{UB2} has great talent to be the LWR(Light Water Reactors), PBR(Pebble Bed Reactors) and some kind of FBR reactors fertile fuel material.
 
 \section{Properties}
-In many candidate of ATFs material, the Uranium diboride has higher Uranium density than the others. Also, it has better thermal conductive that make itself have lower fuel centre-line temperatures on working, result in many positive effect such like; reduce the rate of temperature-dependent release of fission products, reduce the energy stored inside the fuel (This properties also is the most important that the UB2 need.)
+In many candidate of ATFs material, the Uranium diboride has higher Uranium density than the others. Also, it has better thermal conductive that make itself have lower fuel centre-line temperatures on working, result in many positive effect such like; reduce the rate of temperature-dependent release of fission products, reduce the energy stored inside the fuel ( This properties also is the most important that the UB2 need. )
 
 \subsection{Neutron Poison}
-In last century, physicist found that there have a special material will absorb the thermal neutron in reactors, that is "Boron", boron has two main isotope in the natural, Boron-10( B-10, natural abundance is $19.8\%$) and Boron-11 (B-11, natural abundance is $80.2\%$). Boron-10's high cross-section make it will capture more thermal neutron then obstruct fissile fuel capture thermal neutron and finally stop the reaction after decay heat is cool down.
+In last century, physicist found that there have a special material will absorb the thermal neutron in reactors, that is "Boron", boron has two main isotope in the natural, Boron-10( B-10, natural abundance is $19.8\%$) and Boron-11 ( B-11, natural abundance is $80.2\%$ ). Boron-10's high cross-section make it will capture more thermal neutron then obstruct fissile fuel capture thermal neutron and finally stop the reaction after decay heat was cool down.
 
-This properties make boron have a long time ago to be the material of neutron absorber in control rods, and nerver consider about to explored as fuel materials. But, after the accident of Fukushima daiichi, the Boron-10 can make sure the reactor has less neutron than the normal reactor that can make 
+This properties make boron have a long time ago to be the material of neutron absorber in control rods, and nerver consider about to explored as fuel materials. But, after the accident of Fukushima daiichi, the Boron-10 begin to research on ATF.
 
-\begin{table}[]
+Boron-10's high neutron cross-section makes it particularly effective at capturing thermal neutrons. This properties enable boron-10 to serve as a "Control Poison" within the broader category of "Neutron Poisons."\\
+
+$^{10}_{5}\ce{B}$ + $^{1}_{0}\ce{n}$ $\rightarrow ^{7}_{4}\ce{Li} + \alpha$\hfill ( 1 )\\
+
+If boron-10 capture a thermal neutron like (1), it will release Lithum-7 and a alpha particle, this reaction is also been applied on BNCT( Boron Neutron Capture Treatment ).
+
+Althought alpha particle( Helium-4 nuclei ) is ionization radiation and have very high ionization abillity, it can't release neutron and will slow down the reaction in reactor.\\
+
+Number of collisions per second $= \sigma I N A X$\hfill ( 2 )\\
+
+\begin{table}[t]
     \centering
+    \caption{The abundance and thermal neutron cross-section reaction type}
+    \label{tab:my-table}
+    \resizebox{\textwidth}{!}{%
     \begin{tabular}{llll}
     \hline
-    Boron isotope type & Abundance & The Cross-section of Thermal Neutron (Barn) & Reaction Type    \\ \hline
-    B-9                & trace     &                                             &                  \\
-    B-10               & 19.8      & 3840                                        & Alpha Absorption \\
-    B-11               &           & 0.5                                         & Gamma Absorption \\
-    B-11               & 80.2      &                                             &                  \\
-    B-12               & trace     &                                             &                  \\ \hline
-    \end{tabular}
+    Boron isotope (Mass Number) & Abundance(a/o)& The Cross-section of Thermal Neutron (Barn) & Reaction Type \\ \hline
+    $B-9$  & trace                              &                                    &                  \\
+    $B-10$ & 19.8\cite{JPCS_1696_1_012006bib1}  &  3837\cite{JPCS_1696_1_012006bib1} & Alpha Absorption \\
+    -      &   -                                &  0.5                               & Gamma Absorption \\
+    $B-11$ & 80.2\cite{JPCS_1696_1_012006bib1}  &  0.01                              & Gamma Absorption \\
+    $B-12$ & trace                              &                                    &                  \\ \hline
+    \end{tabular}%
+    }
     \end{table}
 
 \bibliographystyle{IEEEtran}
