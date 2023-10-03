@@ -49,21 +49,9 @@ ATF has a lot of candidates, like \ce{U2Si3}, \ce{UC}, \ce{UN}, \ce{UB2} and som
 In many candidate of ATFs material, the Uranium diboride has higher Uranium density than the others. Also, it has better thermal conductive that make itself have lower fuel centre-line temperatures on working, result in many positive effect such like; reduce the rate of temperature-dependent release of fission products, reduce the energy stored inside the fuel ( This properties also is the most important that the UB2 need. )
 
 \subsection{Neutron Poison}
-In last century, physicist found that there have a special material will absorb the thermal neutron in reactors, that is "Boron", boron has two main isotope in the natural, Boron-10( B-10, natural abundance is $19.8\%$) and Boron-11 ( B-11, natural abundance is $80.2\%$ ). Boron-10's high cross-section make it will capture more thermal neutron then obstruct fissile fuel capture thermal neutron and finally stop the reaction after decay heat was cool down.
+In last century, physicist found that there have a special material will absorb the thermal neutron in reactors, that is "Boron". 
 
-This properties make boron have a long time ago to be the material of neutron absorber in control rods, and nerver consider about to explored as fuel materials. But, after the accident of Fukushima daiichi, the Boron-10 begin to research on ATF.
-
-Boron-10's high neutron cross-section makes it particularly effective at capturing thermal neutrons. This properties enable boron-10 to serve as a "Control Poison" within the broader category of "Neutron Poisons."\\
-
-$^{10}_{5}\ce{B}$ + $^{1}_{0}\ce{n}$ $\rightarrow ^{7}_{4}\ce{Li} + \alpha$\hfill ( 1 )\\
-
-If boron-10 capture a thermal neutron like (1), it will release Lithum-7 and a alpha particle, this reaction is also been applied on BNCT( Boron Neutron Capture Treatment ).
-
-Althought alpha particle( Helium-4 nuclei ) is ionization radiation and have very high ionization abillity, it can't release neutron and will slow down the reaction in reactor.\\
-
-Number of collisions per second $= \sigma I N A X$\hfill ( 2 )\\
-
-\begin{table}[t]
+\begin{table*}[ht]
     \centering
     \caption{The abundance and thermal neutron cross-section reaction type}
     \label{tab:my-table}
@@ -71,14 +59,87 @@ Number of collisions per second $= \sigma I N A X$\hfill ( 2 )\\
     \begin{tabular}{llll}
     \hline
     Boron isotope (Mass Number) & Abundance(a/o)& The Cross-section of Thermal Neutron (Barn) & Reaction Type \\ \hline
-    $B-9$  & trace                              &                                    &                  \\
+    $B-9$  & trace                              &  -                                 & -                \\
     $B-10$ & 19.8\cite{JPCS_1696_1_012006bib1}  &  3837\cite{JPCS_1696_1_012006bib1} & Alpha Absorption \\
     -      &   -                                &  0.5                               & Gamma Absorption \\
     $B-11$ & 80.2\cite{JPCS_1696_1_012006bib1}  &  0.01                              & Gamma Absorption \\
-    $B-12$ & trace                              &                                    &                  \\ \hline
+    $B-12$ & trace                              &  -                                 & -                \\ \hline
     \end{tabular}%
     }
-    \end{table}
+\end{table*}
+
+Boron has two main isotope in the natural, Boron-10( B-10, natural abundance is $19.8\%$) and Boron-11 ( B-11, natural abundance is $80.2\%$ ), like Table 1. Boron-10's high cross-section make it will capture more thermal neutron then obstruct fissile fuel capture thermal neutron and finally stop the reaction after decay heat was cool down.
+
+This properties make boron have a long time ago to be the material of neutron absorber in control rods, and nerver consider about to explored as fuel materials. But, after the accident of Fukushima daiichi, the Boron-10 begin to research on ATF.
+
+Boron-10's high neutron cross-section makes it particularly effective at capturing thermal neutrons. This properties enable boron-10 to serve as a "Control Poison" within the broader category of "Neutron Poisons."\\
+
+\begin{equation}
+    ^{10}_{5}\ce{B} + ^{1}_{0}\ce{n} \rightarrow ^{7}_{3}\ce{Li} + \alpha    
+\end{equation}
+
+If boron-10 capture a thermal neutron like (1), it will release Lithum-7 and a alpha particle, this reaction is also been applied on BNCT( Boron Neutron Capture Treatment ).
+
+Althought alpha particle( Helium-4 nuclei ) is ionization radiation and have very high ionization abillity, it can't release neutron and will slow down the reaction in reactor.\\
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 5.75cm]{BNCT.png}
+    \caption{The Boron-10 in BNCT radiation reaction\cite{Kasatov_2016} }
+\end{figure}
+
+\begin{equation}
+    ^{11}_{5}\ce{B} + ^{1}_{0}\ce{n} \rightarrow ^{12}_{4}\ce{B} + \gamma
+\end{equation}
+
+Boron-11 is not a good neutron absorption, if Boron capture thermal neutron, its mostly reaction chain is like (2) and still can not release neutron to keep chain-reaction.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width = 5.75cm]{Boron-11_Gamma.png}
+    \caption{Boron-11 \cite{Kasatov_2016} }
+\end{figure}
+
+Neutron poison in fuel like \ce{UB2} can make the Number of neutron in reactor decreaseing and avoid the accident chance, with higher melting temperature, boron can . But in the other hands, neutron poison makes simulation need to think about more circumstance and finally interface the critical operation's problem. But \ce{UB2} more benefits make up for its disadvantage. Please look the next section.
+
+\subsection{Uranium density}
+
+In physicis, density is about a material mass per unit of volume, and larger uranium density which means that the material can contain more uranium atom like U-235, U-233 fissile fuel, it would make longer cycle lengths, and more Uranium atom also means theres have more capture can happened simultaneously.
+
+\begin{table}[ht]
+    \caption{The Uranium density campare with \ce{UO2}, recent generation fuel}
+    \label{tab:my-table}
+    \begin{tabular}{llllll}
+    \hline
+    The type of ATFs             & \ce{UO2 & UB2  & UN\} & UC   & U3Si2} \\ \hline
+    U-Density (U-g/cm$^3$) & 9.6 & 11.7 & 13.5 & 12.7 & 11.3  \\ \hline
+    \end{tabular}
+\end{table}
+\begin{equation}
+    \rho = \frac{\Delta k}{k} = \frac{k_{eff}-1}{k_{eff}}
+\end{equation} 
+
+Higher Uranium-density will interface the effective neutron multiplication factor like(3), if $k_{eff} = 1$ the system will critical, this result will become a factor in monte-carlo simulation and GEN-IV reactor operation.
+
+\begin{table*}[ht]
+    \caption{Thermal conductivity compare with ATFs}
+    \label{tab:my-table}
+    \begin{tabular}{llllll}
+    \hline
+    Type of ATFs                                                                      & \ce{UO2          & UB2          & UN            & UC           & U3Si2}         \\ \hline
+    \begin{tabular}[c]{@{}l@{}}Thermal conductivity (W/m ·K at 300 °C)\end{tabular} & 6.5(95\% TD) & 25(100\% TD) & 16.6(95\% TD) & 20.4(99\%TD) & 14.7(98\% TD) \\ \hline
+    \end{tabular}
+    \end{table*}
+
+\subsection{Thermal conductivity}
+
+The thermoldynamics is a huge topic of physicis, but in general, higher thermal conductivity can improved the fuel performance, \ce{UB2} have the best thermal conductivity abillity compare with ATF candidates, such that, the heat can quickly transfer from pellets and coolant according to the heat transfer equation like (4), and \ce{UB2}'s thermal gradient of fuel pellets is smaller than \ce{UO2}, smaller thermal gradient has less thermal stress difference inside, and there is less cracking ( cracking affects heat transfer )
+
+\begin{equation}
+    \frac{\partial u}{\partial t} = k \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} \right) = k(u_{xx} + u_{yy} + u_{zz})
+\end{equation}
+
+asd
 
 \bibliographystyle{IEEEtran}
 \bibliography{sample}
