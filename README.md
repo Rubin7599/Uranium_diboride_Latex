@@ -24,10 +24,6 @@ MacOS( MacOS Big Sur and later ) be liked
 
 5. In MacOS, i swear using VScode to edit your content is the best decision, after all, enjoy your report time!
 
-Unix and Linux
-
-1. It's not a suggest system that you use for LaTex programming, but if you need to use Linux
-
 The link 
 
 git: 
